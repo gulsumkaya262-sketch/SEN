@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Buton ekrandan dışarı taşmasın diye */
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: 0.1s;
+}
+
+#evetBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#hayirBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+#kalpAlani {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
